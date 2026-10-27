@@ -204,8 +204,6 @@ Source artifacts: `runs/diginetica-run1/config.json`, `epochs.csv`, `training.lo
 |---|---:|---:|---|
 | HR@10 | 0.467890 | 0.491159 | 250 / 509 targets hit; **49.12%** |
 | HR@20 | 0.580275 | 0.605108 | 308 / 509 targets hit; **60.51%** |
-| NDCG@10 | 0.290163 | 0.319540 | Rank-discounted score |
-| NDCG@20 | 0.318580 | 0.348572 | Rank-discounted score |
 | Cross-entropy loss | 5.021995 | 4.944966 | Lower is better |
 
 At the selected epoch, training HR@10 was 0.697673, HR@20 was 0.823089, NDCG@10 was 0.390941, and NDCG@20 was 0.422853. These are evaluation passes over training examples after the epoch, not held-out generalization scores.
